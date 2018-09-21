@@ -1,0 +1,65 @@
+﻿@model IEnumerable<NNV.Models.Prilozi>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Dokumentacijas.Naziv_Dokumenta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_Sednice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Putanja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Poslato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Datum_slanja)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dokumentacijas.Naziv_Dokumenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_Sednice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Putanja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Poslato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Datum_slanja)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Redni_broj }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Redni_broj }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Redni_broj })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

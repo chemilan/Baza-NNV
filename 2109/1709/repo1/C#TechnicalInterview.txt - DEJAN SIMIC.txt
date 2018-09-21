@@ -1,0 +1,43 @@
+1. Zaokruzi pravilnu inicijalizaciju stringa:
+a. string ime;
+b.char ime = 'Petar';
+c. string ime = "Petar";-tacno
+d. string ime ='Petar';
+
+2. int a,b;
+   a = 5;
+   b = a++;
+Console.WriteLine(b); 
+
+Sta ce ispisati konzola?
+a.4
+b.5
+c.6 -tacno
+d.Greska
+
+3.Navedi jedan izuzetak(Exception) -OPSTI EXCEPTION 
+
+4.koje dve petlje se koriste za prolazak kroz ceo niz? for petlje
+5.Razlika izmedju stacka i heapa? - stack deo memorije koji sluzi vrednosnom tipu podataka, heap deo memorije koji sluzi referentnom tipu podataka
+6. Navedi 5 access modifiera i objasni svaki ukratko :public- klasi moze pristupiti svako, private-klasi se moze pristupiti samo u toj klasi,internal klasi  se pristupa u okviru tog assemblija,, protected-klasi se pristupa u okviru klase i nasledjene klase, protected internal- pristup taj asembli, ta klasa i nasledjena klasa
+7. Sta se desava ukoliko ne navedemo svoj konstruktor u klasi? - postoji defaultni konstruktor
+8. Koja je razlika izmedju read-only svojstva i write-only svojstva? - read onli- svojsstvo samo cita, write only- svojstvo samo upisuje
+9.  Koji je klasa je base(osnovna) klasa za sve ostale klase? - apstraktna klasa
+10. Objasni boxing i unboxing. Boxing- kada hocemo vrednosni tip podatka da prevedemo u referentni  tada koristimo object tip promenljive i sa npr integer tipa podatka implicitno prebacujemo na bject tip, unboxing-obrnuto tada koristimo CAST da bi neki referentni tip podatka vratili u vrednosni tip podatka
+11. Navedi bar 3 stuba Objektno-orijentisanog programiranja i objasni svaki ENKAPSULACIJA- funkcionalan kod nije dostupan svima nego skrivamo informavije to radimo nivoima pristupa npr, POLIMORFIZAM- jedna metoda se moze puta koristiti npr OWERLOAD metode, tj jedan isti kod mozemo vise puta koristiti, INHERITANCE-NASLEDJIVANJE-jedna klasa nasledjuje drugu sa svim svojstvima i metodima
+12. Razlika izmedju interfejsa i abstract klasa -interfejsi- U jednoj nasledjenoj klasi mozes imati vise interfejsa dok samo jednu apstraktnu klasu, apstraktna klasa moze imati abstract i neapstract metode, kod interfejsa elementi su public,
+13.  Sta je ternarni operator?
+14.Sta su delegati? - TIP KORISNICKI DEFINISAN KOJI JE REFERENTNI i odredjuje ponasanje kontrola npr klik dogadjaja tj definise ponasanje dogadjaja
+15.Navedi tri kategorije design patterna(i po jedan design pattern iz svakog)
+16. Sta je Singleton?- DIZAJN Pattern koji se koristi kada zelimo da napravimo klasu koja se moze samo jednom INSTANCIRATI tada imamo gotov kod koji koristimo, taj kod koristi SEALD klase zapecacene klase
+17. Razlika izmedju break i continue?- Pitanje skokova kod programa mozemo resiti koriscenjem kljucnih reci tj naredbi BREAK- koja prekida izvrsenje npr kod neke for petlje ako je uslov zadovoljen a imamo break prekidamo for petlju, dok kod CONTINUE imamo nastavak rada for petlje
+
+
+
+
+
+
+
+
+
+

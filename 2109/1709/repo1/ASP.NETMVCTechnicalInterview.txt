@@ -1,0 +1,20 @@
+1. Objasni od cega se sastoji MVC pattern i sta je funkcija svakog dela?-sastoji se od Modela-koji sluzi za upravljanje podacima putem model klasa, Kontroler- zaduzen za logiku same aplikacije, upravlja samom aplikacijom Vju- interfejs koji vide krajnji korisnici
+2. Cemu sluzi ViewModel u MVC?- vju model sluzi za prikaz veb strana koje su pisane u html-u a povezane razor sintaksom sa c# u kontrolerima, vjuovi su krajnji prikaz podataka samim korisnicima
+3. Sta je Routing u MVC? ruting je mehanzam pronalazenja vjuova i sastoji se od putanja kontroler/akcioni metod/parametar
+4. Sta su Actions u MVC? - akcioni metodi su metodi u okviru controler klase i oni sluze za upravljanje vjuovima kao i za ostalu logiku aplikacije
+5. Sta je PartialView u MVC? to su vjuovi koji mogu biti prikazani u vise ostalih vjuova nalaze se u SHARED folderu npr napravimo neki baner koji pozovemo kao partial vju na vise  ostalih vjuova
+6.Razlika izmedju View i PartialView? partial vju se "ugradjuje" u neki vju
+7. Sta su HTML helperi? helperi su deo razor sintakse oni omogucavaju da u vjuovima ubacimo kontrole- text boxove,forme i slicno
+8. Sta je Razor u MVC? Razor sintaksa je sintaksa koja se pise u vjuovaima i ona povezuje kod koji je napisan u htmlu sa kodom napisanim u c# koji je u kontroleru 
+9. Sta je Scaffolding?
+10. Sta je Bundling?
+11. Sta je Minifikacija?
+12. Razlika izmedju DB first i Code first pristupa?
+13. Kako funkcionise Entity Framework? ORM model baziran je na mapiranju u objekte, mapiraju se podaci iz baza
+14. Sta je REST?
+15. Prednosti koriscenja web API-ja? gotovi http zahtevi koji "gadjaju" tacno odrecene podatke tj json ili xml, standardizovana forma za dobijanje xml-a ili jsona koja postoji u POST metodama ili kod GET metodi slanja info
+16. Da li moze da se koristi Web API sa ASP.NET web formama? moze
+17. Koji protokol suportuje Web API? HTTP protokol
+
+
+ 

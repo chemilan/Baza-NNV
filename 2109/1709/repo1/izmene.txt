@@ -1,0 +1,15 @@
+index prisustvo
+
+
+ <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ID_Sednice }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.ID_Sednice }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ID_Sednice })
+            </td>
+
+
+
+
+prisustvo contr
+
+return new HttpStatusCodeResult(HttpStatusCode.BadRequest);

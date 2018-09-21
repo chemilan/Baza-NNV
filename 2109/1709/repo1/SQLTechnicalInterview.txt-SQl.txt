@@ -1,0 +1,32 @@
+1. Get all employee details from the employee table -select * from employee ;
+
+2.  Get all employee details from the employee table order by First_Name Ascending --select * from employee
+										     order by First_Name asc;
+3. Get employee details from employee table whose employee name is “John”- select * from employee
+										     where name =“John”;
+4. Get employee details from employee table whose Salary greater than 600000- select * from employee
+											     where Salary >600000;
+5. Write syntax to delete table employee - delete table employee ;
+6. sta je RDBMS?-
+7. Sta je ACID u Sql Serveru?ACID su principi koji su vazeci za pristupe podacima Atomicnost, Izolacija....???:)
+8. Razlika izmedju "Where" i "Having" u Sql serveru? po redusledu vazenja ide : FROM/WHERE/SELECT/HAVING/ORDER BY, Where radi sa podacima iz From tj vidi te podatke dok having radi sa podacima iz selecta
+9. Navedi makar 3 tipa JOINa - INNER , OUTER, CROSS, LEFT INNER, RIGHT INNER join
+10. Defaultni port na kome radi Sql server? IIS EXPRES je server A port 80
+11. Zasto koristiti stored procedure? dabi dosli do podataka koji su nam znacajni a pri cemu korisnik nema pristupa svim podacima u bazi
+12. Sta je Normalizacija i Denormalizacija u SQl serveru? pravimo entitet, zatim normalizujemo tj pravimo atomicnost podataka koji su zavisni jedino i samo od primary key svaka kolona podataka kljuc, jedino kljuc i nista osim kljuca, denormalizacija obrnut proces
+13. Sta je trigger u Sql serveru? triger je niz operacija koje se izvrsavaja po principu sve ili ni jedna postoje after i for trigeri 
+14. Navedi bar tri tipa constrainta u Sql serveru check konstejt, kolejsn,... 
+15. Navedi bar tri agregatne funkcije u Sql serveru max, min, sum, avg
+16. Nadji datum(order_date) i kolicinu(order_amount) Narudzbine - select(TOP 5) order_date,order_amount From customers where customer_id = 3
+ odredjenog Kupca kome je customer_id = 3.
+
+
+
+
+
+
+
+
+
+
+

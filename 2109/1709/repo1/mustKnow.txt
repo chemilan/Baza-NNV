@@ -1,0 +1,84 @@
+C#=======must know
+What are the fundamental OOP concepts?
+
+What is the difference between a struct and a class in C#?
+
+What is Boxing and Unboxing?
+
+What is the difference between Interface and Abstract Class?
+
+What is the difference between “continue” and “break” statements in C#?
+
+Can “this” be used within a static method?
+
+What is delegates in C# and uses of delegates?
+
+What is the Constructor Chaining in C#?
+
+Can Multiple Catch Blocks executed in c#?
+
+What is Singleton Design Pattern and How to implement in C#?
+
+Difference between is and as operator in C#.
+
+Different Ways of Method can be overloaded.
+
+Describe the accessibility modifiers in c#.Net.
+
+What is Virtual Method in C#?
+
+What you understand by Value types and Reference types in C#.Net?
+
+What is LINQ in C#?
+
+ALGORITHM=====must know
+1. imas niz od n brojeva {1,5,78,324,3,2,67}, sortiraj ih(ascending(od najmanjeg ka najvecem)/descending(od najveceg ka najmanjem)). (Sorting algorithm bilo koji)
+2. imas niz od n brojeva {35,6,78,5,3,25}, pronadji na kom je indexu broj 3? (Searching algorithm)
+3.imas string = "ana". Proveri da li je string palindrom(cita se isto sa obe strane).
+4.Rekurzija prosti zadaci(fibonacci, factorial)
+
+ASP.NET MVC==========must know
+
+What is MVC (Model view controller)? opisati kako radi ceo arhitekturalni pattern i koje su uloge modela viewa controllera i routera.
+
+
+=====LINQ======must know
+https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b
+
+====FRONTEND=========must know
+objasni kako funkcionise DOM(document object model)?
+Validacija(serverska i klijentska razlika)
+Kako sve moze da se implementira CSS?(3 nacina)
+Sta je this u javascriptu?
+Sta su HTTP metode?
+Razlika izmedju GET i POST?
+Sta je XSS?
+
+
+====GIT======must know
+git add . -> dodaje u pripremnu fazu promenjene fajlove
+git commit -> commituje na lokalni repo
+git push -> salje commitove sa lokalnog na eksterni(github primer) repo
+git pull -> skida najnoviju verziju sa eksternog repo
+
+
+====WEB API=====must know
+Generalno kako funkcionise i koja je poenta nauciti
+
+====agile methodologies=====must know
+osnove SCRUM-a
+osnove Kanban-a
+osnove XPa(extreme programming)
+
+====DESIGN PATTERNS=====must know
+tri vrste dizajn patterna
+Creational(Singleton(najvazniji),Abstract factory i jos jedan)
+Structural(Adapter i jos jedan)
+Behavioral(bilo koji)
+
+OSI model od cega se sastoji?
+osnove HTTP protokola(za developere)
+
+
+
+

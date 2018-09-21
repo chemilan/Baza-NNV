@@ -1,0 +1,27 @@
+1.Sta je variable Scope? - oblast vazenja varijable
+2. Sta je "this" u Javascriptu?
+3. Kako se brise Floated element?
+4. Sta su anonimne funkcije?
+5. Sta je Ajax?  Sta je ajax poziv?
+6.Nabroji 4 HTTP request tipa
+7. Sta je HTML doctype i njegova vaznost? - deklaracija koja oznacava koja su pravila vazeca u okviru html-a koji pisemo
+8. Razlika izmedju GET i POST i sta je sigurnije? - Get- metoda prenosa podataka sa html strane koja funkcionise po principu sto se putem queri stringova informacije dodaju na url, dok POST metoda je metoda koja sigurnije prenosi informacije sa html strane ali se informacije porenose u telu post poruke koja je nevidljiva korisniku
+9. Razlika izmedju Visibility:hidden i Display:none? prvi je za element koji postoji ali je nevidljiv, drugi je za element koji se ne prikazuje 
+10. Sta je Javascript objekat?
+11. Razlika izmedju == i === u JS-u?
+12.  Tag za embedovanje videa u HTML5? <video>tag
+13. Sta je DOM objasni- Document Object Model--?
+14. Sta je Type Selector u CSSu? type="button"- oznacava koja je kontrola u pitanju 
+15. Sta je Universal Selector u CSSu?
+16. Sta je class Selector u CSSu? selektor koji sluzi za oznacavanje nekog elementa koji posle pozivamo class="ime"  poziv ovog class selektora je .ime
+17. Nabroj nacine koriscenja CSSa u HTML stranici? in line, css fajl ili u okviru <style> taga u hedu 
+18. Na kom portu po defaultu radi Apache web server?
+19. Da li se moze promeniti osnovni/defaultni port? mislim da ne
+20.Sta se desi ukoliko imamo konflikt dva porta sa iste IP adrese?
+21. Sta je XSS i kako se sprecava? Xross sajt skripting- hakerski napad koji je baziran da u odredjene kontrole na veb strani ucitamo java skriptu ili neku skriptu koja se moze preneti dalje do servera i izvrsiti
+
+
+
+
+
+
